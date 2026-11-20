@@ -8,7 +8,7 @@ const datasource = [
       {name: 'Raichu',card: 26},
       {name: 'Magneton',card: 82},
     ],
-    title: "ELECTRIC",bgcolor: 'yellow', icon:'bolt' , backgroundcolor: 'yellow'
+    title: "ELECTRIC",bgcolor: 'yellow', icon:'bolt'
   },
   {
     data: [
@@ -77,7 +77,6 @@ const styles = StyleSheet.create({
   opacityStyle: {
     borderWidth: 1,
     flexDirection: 'row',
-    backgroundColor : 'blue',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: 50,
